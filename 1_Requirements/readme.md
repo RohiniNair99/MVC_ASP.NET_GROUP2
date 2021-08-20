@@ -47,6 +47,23 @@ A user use this software easily
 
 
 ## SWOT Analysis
+Strengths-
+Provide easy accessibility of data
+Skill level structure
+Guidance and Availability
+
+Weakness-
+User Interface Enhancement
+Graphical representation
+
+Opportunity
+Save time of user
+User friendly
+
+
+Threats
+Academic/Professional work
+Hardware error
 
 
 
