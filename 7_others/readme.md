@@ -11,9 +11,9 @@ Date | Work Progress
 ### Evening 
 Member Name| What's done so far | What will you do today  | Any Challenges
 ------|----------|--------- |----------
-Mayanak awasthi |discussed the project idea  and worked in database table|Faced difficulty in database
-Manjeet Singh |discussed the project idea and worked in database mapping  |Faced difficulty in understanding project work flow 
-Rohini nair |discussed the project idea and worked with  stored procedures|faced difficulty in  project features
+Mayanak awasthi |discussed the project idea and workflow of project| database design and requirement |Faced difficulty in database 
+Manjeet Singh |discussed the project idea and workflow of project |  database mapping and test plan |Faced difficulty in understanding project work flow 
+Rohini nair |discussed the project idea and workflow of project | table stored procedures and requirement  |faced difficulty in  project features
 
 
 
