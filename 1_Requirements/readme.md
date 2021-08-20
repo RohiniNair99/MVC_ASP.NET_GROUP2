@@ -76,6 +76,16 @@ HLR03|Respond to questions and view responses|Implemented
 HLR04|Validate responses|Implemented
 HLR05|Upvote User according to their responses|Future
 
+###  Low level Requirements:
+ID | Description | HLR-ID | Status
+------|-------------|--------|--------
+LLR01|User need to create profile to enter the application |HLR01|Implemented
+LLR02|User can view questions and even add their own questions |HLR02|Implemented
+LLR03|User can respond to other users questions and can view responses to their questions |HLR03|Implemented
+LLR04|User can validate the questions and answers if they get the satisfactory answer |HLR04|Implemented
+LLR05|User can upvote other users to their responses if they find the answers satifised |HLR05|Future
+
+
 
 
 
