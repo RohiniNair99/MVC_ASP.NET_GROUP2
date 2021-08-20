@@ -22,5 +22,15 @@ In present |  Ask me !! - with more user friendly and features like upvote |
 *	Now, we have Ask me!! web app which also allows people to ask questions and answers and also people can validate the answers with upvote feature
 *	in future AI ML technologies can be added to filter out the different and validate the answers to similar questions
 
+## Feature Listing
+### This application has following features:
+* It has a feature of viewing questions and get satisfatory answers.
+* User can add questions and answer to other user quesetions.
+* It provides the ability to upvote other users for satisfactory responses.
+
+
+## 4 W&#39;s and 1 H
+
+
 
 
