@@ -46,24 +46,7 @@ HOW
 	This app can helps user to ask questions and get answers from other users
 
 
-## SWOT Analysis
-Strengths-
-Provide easy accessibility of data
-Skill level structure
-Guidance and Availability
 
-Weakness-
-User Interface Enhancement
-Graphical representation
-
-Opportunity
-Save time of user
-User friendly
-
-
-Threats
-Academic/Professional work
-Hardware error
 
 ## Detail requirements
 ### High Level Requirements:
