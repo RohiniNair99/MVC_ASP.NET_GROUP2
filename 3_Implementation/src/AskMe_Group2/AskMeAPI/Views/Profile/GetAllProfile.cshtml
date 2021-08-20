@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AskMeAPI.Models.Profile>
+
+@{
+    ViewBag.Title = "GetAllProfile";
+}
+
+<h2>GetAllProfile</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddProfile")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserId)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UAge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        
+    </tr>
+}
+
+</table>

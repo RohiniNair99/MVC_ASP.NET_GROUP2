@@ -1,0 +1,6 @@
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDTO\bin\Debug\AskMeDTO.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDTO\bin\Debug\AskMeDTO.pdb
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDTO\obj\Debug\AskMeDTO.csproj.AssemblyReference.cache
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDTO\obj\Debug\AskMeDTO.csproj.CoreCompileInputs.cache
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDTO\obj\Debug\AskMeDTO.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDTO\obj\Debug\AskMeDTO.pdb

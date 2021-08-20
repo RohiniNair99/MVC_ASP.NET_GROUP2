@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MVCGroupProjectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="QuestionDetail">
+    <Key>
+      <PropertyRef Name="QuestionId" />
+    </Key>
+    <Property Name="QuestionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Question" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="UserDetail" Relationship="Self.FK__QuestionD__UserI__286302EC" FromRole="QuestionDetails" ToRole="UserDetails" />
+    <NavigationProperty Name="ResponseDetails" Relationship="Self.FK__ResponseD__Quest__2C3393D0" FromRole="QuestionDetails" ToRole="ResponseDetails" />
+  </EntityType>
+  <EntityType Name="ResponseDetail">
+    <Key>
+      <PropertyRef Name="ResponseId" />
+    </Key>
+    <Property Name="ResponseId" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="QuestionId" Type="Int32" Nullable="false" />
+    <Property Name="Upvote" Type="Int32" />
+    <Property Name="Response" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="QuestionDetail" Relationship="Self.FK__ResponseD__Quest__2C3393D0" FromRole="ResponseDetails" ToRole="QuestionDetails" />
+    <NavigationProperty Name="UserDetail" Relationship="Self.FK__ResponseD__UserI__2B3F6F97" FromRole="ResponseDetails" ToRole="UserDetails" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserDetail">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UEmail" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UAge" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="QuestionDetails" Relationship="Self.FK__QuestionD__UserI__286302EC" FromRole="UserDetails" ToRole="QuestionDetails" />
+    <NavigationProperty Name="ResponseDetails" Relationship="Self.FK__ResponseD__UserI__2B3F6F97" FromRole="UserDetails" ToRole="ResponseDetails" />
+  </EntityType>
+  <Association Name="FK__QuestionD__UserI__286302EC">
+    <End Role="UserDetails" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="QuestionDetails" Type="Self.QuestionDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetails">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="QuestionDetails">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ResponseD__Quest__2C3393D0">
+    <End Role="QuestionDetails" Type="Self.QuestionDetail" Multiplicity="1" />
+    <End Role="ResponseDetails" Type="Self.ResponseDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QuestionDetails">
+        <PropertyRef Name="QuestionId" />
+      </Principal>
+      <Dependent Role="ResponseDetails">
+        <PropertyRef Name="QuestionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ResponseD__UserI__2B3F6F97">
+    <End Role="UserDetails" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="ResponseDetails" Type="Self.ResponseDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetails">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ResponseDetails">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MVCGroupProjectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="QuestionDetails" EntityType="Self.QuestionDetail" />
+    <EntitySet Name="ResponseDetails" EntityType="Self.ResponseDetail" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="UserDetails" EntityType="Self.UserDetail" />
+    <AssociationSet Name="FK__QuestionD__UserI__286302EC" Association="Self.FK__QuestionD__UserI__286302EC">
+      <End Role="UserDetails" EntitySet="UserDetails" />
+      <End Role="QuestionDetails" EntitySet="QuestionDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ResponseD__Quest__2C3393D0" Association="Self.FK__ResponseD__Quest__2C3393D0">
+      <End Role="QuestionDetails" EntitySet="QuestionDetails" />
+      <End Role="ResponseDetails" EntitySet="ResponseDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ResponseD__UserI__2B3F6F97" Association="Self.FK__ResponseD__UserI__2B3F6F97">
+      <End Role="UserDetails" EntitySet="UserDetails" />
+      <End Role="ResponseDetails" EntitySet="ResponseDetails" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

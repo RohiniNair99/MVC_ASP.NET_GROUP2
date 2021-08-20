@@ -1,0 +1,14 @@
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\AskMeDAL.dll.config
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\AskMeDAL.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\AskMeDAL.pdb
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\AskMeDTO.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\EntityFramework.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\AskMeDTO.pdb
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\EntityFramework.xml
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\obj\Debug\AskMeDAL.csproj.AssemblyReference.cache
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\obj\Debug\AskMeDAL.csproj.CoreCompileInputs.cache
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\obj\Debug\AskMeDAL.csproj.CopyComplete
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\obj\Debug\AskMeDAL.dll
+F:\Rohini\MVC_ASP.NET_GROUP2\3_Implementation\src\AskMe_Group2\AskMeDAL\obj\Debug\AskMeDAL.pdb
