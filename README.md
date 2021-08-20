@@ -9,3 +9,12 @@ Folder             | Description
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Report`         | overall report of the project including screenshots of outputs
 `6_ImagesAndVideos`| all images and videos including uml of the project
+
+
+## Contributors List and Summary
+
+PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|
+-------|---------|----------------|----------------|---------------|
+99004925|Manjeet Singh|  | 1|
+99004933|Mayank awasthi| |2|
+99004945|Rohini Nair| ||
