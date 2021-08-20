@@ -34,7 +34,7 @@ WHO
 All the user who are active user of Internet
 
 WHAT
-At end user get their which is shared in forum
+At the end user get their answers which is shared in forum
 
 WHEN
  whenever user want answer for specific question
@@ -43,7 +43,7 @@ WHY
 User can use this platform to save time 
 
 HOW
-A user use this software easily
+	This app can helps user to ask questions and get answers from other users
 
 
 ## SWOT Analysis
@@ -64,6 +64,20 @@ User friendly
 Threats
 Academic/Professional work
 Hardware error
+
+## Detail requirements
+### High Level Requirements:
+
+ ID | Description | Status (Implemented/Future)
+------ |-----------| -------------
+HLR01|User profile|Implemented
+HLR02|View and Add questions|Implemented
+HLR03|Respond to questions and view responses|Implemented
+HLR04|Validate responses|Implemented
+HLR05|Upvote User according to their responses|Future
+
+
+
 
 
 
