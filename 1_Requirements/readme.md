@@ -31,6 +31,7 @@ In present |  Ask me !! - with more user friendly and features like upvote |
 
 ## 4 W&#39;s and 1 H
 
+## SWOT Analysis
 
 
 
