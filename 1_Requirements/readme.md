@@ -30,6 +30,21 @@ In present |  Ask me !! - with more user friendly and features like upvote |
 
 
 ## 4 W&#39;s and 1 H
+WHO
+All the user who are active user of Internet
+
+WHAT
+At end user get their which is shared in forum
+
+WHEN
+ whenever user want answer for specific question
+
+WHY
+User can use this platform to save time 
+
+HOW
+A user use this software easily
+
 
 ## SWOT Analysis
 
