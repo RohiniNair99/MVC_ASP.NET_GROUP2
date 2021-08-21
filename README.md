@@ -17,4 +17,4 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|
 -------|---------|----------------|----------------|---------------|
 99004925|Manjeet Singh|  | 1|
 99004933|Mayank awasthi| |2|
-99004945|Rohini Nair|View Profile,Create profile,view questions,view response,add response,view response by userId,view response by QuestionId,view questions by userId,Integration of code |2|
+99004945|Rohini Nair|View Profile,Create profile,view questions,view response,add response,view response by userId,view response by QuestionId,view questions by userId,Integration of code |2|2|
